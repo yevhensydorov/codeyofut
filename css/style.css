@@ -19,6 +19,10 @@ body {
     clear: both;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
 .main-header {
     height: 80px;
     background-color: #212121;
@@ -63,10 +67,18 @@ body {
 }
 
 .promo-left {
+    margin-top: 60px;
     float: left;
     width: 490px;
 }
 
+h1.promo-heading {
+    color: #D95B44;
+    font-size: 45px;
+    margin-bottom: 38px;
+}
+
 .promo-right {
+    margin-top: 60px;
     float: right;
 }
