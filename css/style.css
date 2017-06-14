@@ -57,5 +57,16 @@ body {
 }
 
 .promo {
-    background-image: url(../img/header-bg.jpg);
+    margin-top: -19px;
+    height: 656px;
+    background: url(../img/header-bg-3.jpg) center center;
+}
+
+.promo-left {
+    float: left;
+    width: 490px;
+}
+
+.promo-right {
+    float: right;
 }
