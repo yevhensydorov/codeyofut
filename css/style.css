@@ -18,3 +18,44 @@ body {
     display: table;
     clear: both;
 }
+
+.main-header {
+    height: 80px;
+    background-color: #212121;
+}
+
+.main-logo {
+    float: left;
+    width: 148px;
+    height: 41px;
+}
+
+.main-nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+    width: 600px;
+}
+
+.main-nav ul {
+    float: right;
+}
+
+.main-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+.main-nav a {
+    color: #A1A1A1;
+    text-decoration: none;
+}
+
+.promo {
+    background-image: url(../img/header-bg.jpg);
+}
