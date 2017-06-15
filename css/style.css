@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .promo-left {
     margin-top: 60px;
+    margin-bottom: 120px;
     float: left;
     width: 490px;
 }
@@ -77,8 +78,33 @@ h1.promo-heading {
     font-size: 45px;
     margin-bottom: 38px;
 }
-
+h3.promo-heading-desrciption {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #d0d0d0;
+}
 .promo-right {
     margin-top: 60px;
     float: right;
+}
+
+.heading-features {
+    width: 100%;
+}
+
+.heading-features ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-features li {
+    display: inline-block;
+
+}
+
+.feature-item {
+    width: 180px;
+    height: 70px;
+    background-color: rgba(23,23,20, 0.2);
 }
