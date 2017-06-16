@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .promo-left {
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 120px;
     float: left;
     width: 490px;
@@ -84,12 +84,14 @@ h3.promo-heading-desrciption {
     color: #d0d0d0;
 }
 .promo-right {
-    margin-top: 60px;
+    margin-top: 100px;
     float: right;
 }
 
 .heading-features {
-    width: 100%;
+    margin-top: 70px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .heading-features ul {
@@ -103,8 +105,12 @@ h3.promo-heading-desrciption {
 
 }
 
-.feature-item {
-    width: 180px;
-    height: 70px;
-    background-color: rgba(23,23,20, 0.2);
+.heading-features h4 {
+    color: #d0d0d0;
 }
+.feature-item {
+    width: 160px;
+    height: 70px;
+    background-color: rgba(23,23,20, 0.6);
+}
+
