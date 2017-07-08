@@ -201,7 +201,14 @@ h3.promo-heading-desrciption {
     line-height: 22px;
 }
 
-.gallery img {
+.gallery {
+    margin-bottom: 30px;
+}
+.gallery-heading {
+    margin-bottom: 40px;
+}
+
+.gallery-icon {
     background-color: #d95b44;
     border-radius: 50%;
     float: left;   
@@ -209,6 +216,44 @@ h3.promo-heading-desrciption {
 }
 
 .gallery h4 {
+    font-size: 18px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    color: #646464;
+    font-weight: normal;
+    padding-top: 9px;
+}
+
+.gallery-items {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-items .item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.gallery-items .item:last-child {
+    margin-right: 0;
+}
+
+.item h5 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.item h5:hover {
+    color: #d95b44;
+}
+
+.options h4 {
     font-size: 18px;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     line-height: 23px;
