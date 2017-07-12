@@ -375,3 +375,68 @@ h3.promo-heading-desrciption {
 .btn:hover {
     background-color: #767676;
 }
+
+footer {
+    background-color: #212121;
+}
+
+.social-left {
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.social-links {
+    float: left;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    color: #767676;
+}
+
+.social-links a:hover {
+    color: #484848;
+}
+
+.social-links i {
+    font-size: 18px;
+}
+
+.twitter-acc {
+    width: 50%;
+    float: right;
+    text-align: center;
+
+}
+
+.twitter-acc p {
+    margin-bottom: 5px;
+}
+
+.twitter-acc a {
+    text-decoration: none;
+    color: #d95b44;
+}
+
+.twitter-acc a:hover {
+    color: #767676;
+}
+
+
+.post-item img {
+    width: 80px;
+    height: 40px;
+}
