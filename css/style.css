@@ -383,7 +383,9 @@ footer {
 .social-left {
     float: left;
     width: 40%;
+    box-sizing: border-box;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 .social-links {
@@ -435,6 +437,49 @@ footer {
     color: #767676;
 }
 
+.social-left h5 {
+    margin-top: 95px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #646464;
+    font-weight: normal;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+p.about-grepfrut {
+    line-height: 22px;
+}
+
+.social-right {
+    margin-top: 30px;
+    width: 58%;
+    float: right;
+}
+
+.last-tweets {
+    background-color: #282828;
+    padding: 16px 40px 20px 28px;
+    border: 1px solid #161616;
+    border-radius: 4px;
+    margin-bottom: 35px;
+}
+
+p.tweets {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+
+p.tweets span {
+    color: #d95b44;
+}
+
+.last-tweets time {
+    color: #d95b44;
+    font-size: 12px;
+    line-height: 22px;
+
+}
 
 .post-item img {
     width: 80px;
