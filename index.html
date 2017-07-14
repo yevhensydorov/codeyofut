@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="main-header">
+	<header id="header-link" class="main-header">
 		<div class="container">			
 			<div class="main-logo">
 				<img src="img/logo.png" alt="greypfruit">
@@ -18,11 +18,9 @@
 			<nav class="main-nav">
 				<ul>
 					<li><a href="#">home</a></li>
-					<li><a href="#">features</a></li>
-					<li><a href="#">pages</a></li>
-					<li><a href="#">pricing</a></li>
-					<li><a href="#">blog</a></li>
-					<li><a href="#">contact</a></li>
+					<li><a href="#features-link">features</a></li>
+					<li><a href="#options-link">options</a></li>
+					<li><a href="#contact-link">contact us</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -72,7 +70,7 @@
 		</div>
 	</div>
 
-	<div class="features">
+	<div id="features-link" class="features">
 		<div class="container">
 			<h2 class="features-heading">Unique experiences for <span>web</span> & <span>mobile</span></h2>
 			<ul class="clearfix">
@@ -118,7 +116,7 @@
 		</div>
 	</div>
 
-	<div class="options">
+	<div id="options-link" class="options">
 		<div class="container clearfix">
 			<div class="options-heading">
 				<img class="gallery-icon" src="img/heading-icon-listwithimg.png" alt="preview">
@@ -148,7 +146,7 @@
 		</div>
 	</div>
 
-	<footer class="clearfix">
+	<footer id="contact-link" class="clearfix">
 		<div class="container clearfix">
 			<div class="social-left clearfix">
 				<ul class="social-links">
@@ -164,7 +162,7 @@
 				<h5>About Grepfrut</h5>
 				<p class="about-grepfrut">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis.</p>
 			</div>
-			<div class="social-right">
+			<div class="social-right clearfix">
 				<div class="last-tweets">
 					<p class="tweets">This week's Famous Five - take a look at some of the awesome places Envato items have been used. <span>#madewithenvato</span> https://t.co/GAO06R2kWk</p>
 					<time>1 year ago</time>
@@ -174,26 +172,69 @@
 					<div class="post-item">
 						<img src="img/blog5.jpg" alt="laptop">
 						<time>December 1, 2013</time>
-						<a href="http://wordpress.tanshcreative.com/grepfrut/useful-resources/"></a>
+						<a href="http://wordpress.tanshcreative.com/grepfrut/useful-resources/">Useful Resources for designers</a>
 					</div>
 					<div class="post-item">
 						<img src="img/blog2.jpg" alt="wheat">
 						<time>December 1, 2013</time>
-						<a href="http://wordpress.tanshcreative.com/grepfrut/useful-resources/"></a>
+						<a href="http://wordpress.tanshcreative.com/grepfrut/useful-resources/">This is an amazing Image Post for everyone</a>
 					</div>
 					<div class="post-item">
 						<img src="img/blog6.jpg" alt="laptop">
 						<time>December 1, 2013</time>
-						<a href="http://wordpress.tanshcreative.com/grepfrut/useful-resources/"></a>
+						<a href="http://wordpress.tanshcreative.com/grepfrut/useful-resources/">This would be the awesome gallery post</a>
 					</div>
 				</div>
 				<div class="contacts">
 					<h5>Contact</h5>
+					<div class="adress">
+						<p class="company-name">Civic Studios, Inc.</p>
+						<p class="company-adress">3245 East Creek Blvd, Suite 590</p>
+						<p class="city-postcode">Bos Boomer, IN 20076</p>
+					</div>
+					<div class="phone-number">
+						<a href="tel:+(99)1233455678">+(99) 123 345 5678</a>
+					</div>
+					<div class="company-email">
+						<a href="mailto:support@example.com">support@example.com</a>
+					</div>
+					<div class="company-skype">
+						<a href="http://wordpress.tanshcreative.com/grepfrut/@grepfrut">http://skype.com/skypename</a>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<p class="copyright">© Copyright 2017. Grepfrut Theme copied by <a href="https://github.com/yevhensydorov">Yevhen Sydorov</a> for <a href="https://codeyourfuture.co/">CodeYourFuture.</a></p>
+				<nav class="footer-nav">
+				<ul>
+					<li><a href="#header-link">Home</a></li>
+					<li><a href="#features-link">Features</a></li>
+					<li><a href="#options-link">Options</a></li>
+				</ul>
+			</nav>	
+			</div>
+			
+		</div>
 	</footer>
 
-	
+<!-- jQuery plugins -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Scroll -->
+    		<script>
+    			$(document).ready(function() {
+
+    				$('a[href^="#"]').click(function(){
+    					var el = $(this).attr('href');
+    					$('body').animate({
+    						scrollTop: $(el).offset().top}, 1000);
+    					return false; 
+    				});
+
+    			});
+    		</script>
+  <!-- End Scroll -->   		 		
 </body>
 </html>

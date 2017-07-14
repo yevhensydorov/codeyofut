@@ -59,6 +59,13 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav a {
     color: #A1A1A1;
     text-decoration: none;
+    transition: all .5s;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.main-nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .promo {
@@ -481,7 +488,199 @@ p.tweets span {
 
 }
 
+.social-right h5 {
+    margin-bottom: 17px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #646464;
+    font-weight: normal;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.latest-posts {
+    float: left;
+    width: 50%;
+}
+
+.post-item {
+    margin-bottom: 15px;
+    height: 50px;
+}
+
 .post-item img {
+    float: left;
     width: 80px;
     height: 40px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.post-item time {
+    font-size: 11px;
+    line-height: 1em;
+
+}
+
+.post-item a {
+    display: block;
+    color: #d95b44;
+    font-size: 12px;
+    line-height: 1.6em;
+}
+
+.contacts {
+    float: left;
+    width: 50%;
+}
+
+.adress {
+    background: url(../img/icon-address.png) no-repeat 0 -2px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.adress:after {
+    background: url(../img/footer-item-divider.png) repeat-x;
+    width: 100%;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 10px 0;
+}
+
+.company-name {
+    margin: 0;
+    padding: 0;
+}
+
+.phone-number {
+    background: url(../img/icon-phone.png) no-repeat 0 -2px;
+    padding-left: 30px;
+    padding-top: 3px; 
+}
+
+.phone-number a {
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #767676;
+    text-decoration: none;
+}
+
+.phone-number:after {
+    background: url(../img/footer-item-divider.png) repeat-x;
+    width: 100%;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 10px 0;
+}
+
+.company-email {
+    background: url(../img/icon-mail.png) no-repeat 0 -2px;
+    padding-left: 30px;
+    padding-top: 3px; 
+}
+
+.company-email a {
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d95b44;
+    text-decoration: none;
+    transition: all .3s;   
+}
+
+.company-email a:hover {
+    color: #767676;  
+}
+
+.company-email:after {
+    background: url(../img/footer-item-divider.png) repeat-x;
+    width: 100%;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 10px 0;
+}
+
+.company-skype {
+    background: url(../img/social-icon-skype.png) no-repeat 0 -2px;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+.company-skype a {
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d95b44;
+    text-decoration: none;
+    transition: all .3s;   
+}
+
+.company-skype a:hover {
+    color: #767676;  
+}
+
+.company-skype:after {
+    background: url(../img/footer-item-divider.png) repeat-x;
+    width: 100%;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 40px;
+    height: 50px;
+    background-color: #767676;
+}
+
+.copyright {
+    float: left;
+    width: 50%;
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #242424;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav {
+    float: right;
+ }
+
+ .footer-nav ul {
+    padding: 0;
+    margin-top: 10px;
+ }
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #141414;
+    font-family: Oxygen, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    transition: all .3s;
+}
+
+.footer-nav a:hover {
+    color: #fff;
 }
