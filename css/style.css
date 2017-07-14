@@ -526,6 +526,12 @@ p.tweets span {
     color: #d95b44;
     font-size: 12px;
     line-height: 1.6em;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.post-item a:hover {
+    color: #767676;    
 }
 
 .contacts {
