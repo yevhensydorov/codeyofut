@@ -656,8 +656,13 @@ p.tweets span {
 }
 
 .copyright a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
+    transition: all .3s;
+}
+
+.copyright a:hover {
+    color: #434343;
 }
 
 .footer-nav {
