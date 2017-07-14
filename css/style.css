@@ -129,6 +129,11 @@ h3.promo-heading-desrciption {
     width: 160px;
     height: 70px;
     background-color: rgba(85, 56, 28, 0.6);
+    transition: all .3s;
+}
+
+.feature-item:hover {
+    background-color: rgba(85, 56, 28, 0.3);   
 }
 
 .feature-item i {
