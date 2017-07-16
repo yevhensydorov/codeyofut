@@ -805,3 +805,9 @@ p.tweets span {
         font-size: 11px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
