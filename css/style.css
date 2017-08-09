@@ -837,6 +837,47 @@ p.tweets span {
 }
 
 @media screen and (max-width: 970px) {
+    .container {
+        width: 750px;
+    }
+    
+    .promo-left {
+        width: 350px;
+        margin-top: 110px;
+        margin-bottom: 75px;
+}
+
+    .promo-image img {
+        width: 380px;
+        height: 280px;
+    }
+
+    .heading-features {
+        width: 96%;
+    }
+
+    .feature-item {
+        width: 130px;
+    }
+    
+    .features-item {
+        width: 190px;
+    }
+    
+    .gallery-items .item {
+        width: 234px;
+    }
+
+    .item img {
+        width: 230px;
+        height: 170px;
+    }
+
+    .options-right img {
+        width: 350px;
+        height: 230px;
+    }
+
     .nav-menu {
         display: none;
     }
@@ -862,7 +903,7 @@ p.tweets span {
         display: block;
     }
     .responsive-nav-height {
-        margin-top: 50px;
+        margin-top: 10px;
         height: 50px;
     }
     nav,
@@ -872,7 +913,5 @@ p.tweets span {
 }
 
 @media screen and (max-width:768px) {
-    .container {
-        width: 750px;
-    }
+    
 }
