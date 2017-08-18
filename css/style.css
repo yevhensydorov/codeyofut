@@ -151,8 +151,6 @@ h3.promo-heading-desrciption {
     border-radius: 5px;
 }
 
-
-
 .heading-features h4 {
     color: #d0d0d0;
     margin-top: 10px;
@@ -211,18 +209,6 @@ h3.promo-heading-desrciption {
     float: left;
     text-align: center;
     padding: 0 30px;
-}
-
-.features-responsive {
-    
-}
-
-.features-customize {
-    
-}
-
-.features-documented {
-   
 }
 
 .features-item img {
@@ -339,7 +325,7 @@ h3.promo-heading-desrciption {
     color: #767676;
     font-weight: normal;
 }
-
+    
 .options-description a {
     color: #d95b44;
     text-decoration: none;        
@@ -840,12 +826,16 @@ p.tweets span {
     .container {
         width: 750px;
     }
+
+    .header .main-nav {
+        width: 100%;
+    }
     
     .promo-left {
         width: 350px;
         margin-top: 110px;
         margin-bottom: 75px;
-}
+    }
 
     .promo-image img {
         width: 380px;
